@@ -1,52 +1,52 @@
 # LearningJava
 
-O projeto Bora é um aplicativo Java desenvolvido para fins educacionais e de treinamento. Este projeto utiliza o Apache Maven como ferramenta de gerenciamento e automação de builds.
+The Bora project is a Java application developed for educational and training purposes. This project uses Apache Maven as a build management and automation tool.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto segue a estrutura padrão de um projeto Maven
+The project follows the standard structure of a Maven project
 
-- src/main/java: Contém o código fonte do aplicativo.
-- src/main/resources: Contém os arquivos de recursos necessários para o aplicativo.
-- src/test/java: Contém as classes de teste.
-- src/test/resources: Contém os arquivos de recursos necessários para os testes.
-- .classpath e .project: Arquivos de configuração do Eclipse.
-- pom.xml: Arquivo de configuração do Maven.
+- src/main/java: Contains the application source code.
+- src/main/resources: Contains the resource files needed by the application.
+- src/test/java: Contains the test classes.
+- src/test/resources: Contains the resource files needed for tests.
+- .classpath and .project: Eclipse configuration files.
+- pom.xml: Maven configuration file.
 
-## Dependências
+## Dependencies
 
-- O arquivo pom.xml contém as configurações de dependências necessárias para o projeto. Certifique-se de que todas as dependências estão devidamente configuradas e atualizadas.
+- The pom.xml file contains the required dependency settings for the project. Make sure all dependencies are properly configured and updated.
 
-## Como Executar
+## How to Run
 
 - Clonar o repositório
 
-git clone <URL do repositório>
-cd projeto.Bora
-Compilar o projeto usando Maven
+git clone <repository URL>
+cd projeto.bora
+Compile the project using Maven
 
 
 - mvn clean install
 
-Executar os testes
+Run the tests
 
 
 - mvn test
 
-Executar o aplicativo
+Run the application
 
 
 - mvn exec:java -Dexec.mainClass="br.com.e2etreinamentos.MainClass"
 
-Substitua br.com.e2etreinamentos.MainClass pela classe principal do seu projeto.
+Replace br.com.e2etreinamentos.MainClass with the main class of your project.
 
-## Contribuição
+## Contribution
 
-- Faça um fork do projeto.
-- Crie um branch para sua feature (git checkout -b feature/AmazingFeature).
-- Faça o commit das suas alterações (git commit -m 'Add some AmazingFeature').
-- Faça o push para o branch (git push origin feature/AmazingFeature).
-- Abra um Pull Request.
+- Fork the project.
+- Create a branch for your feature (git checkout -b feature/AmazingFeature).
+- Commit your changes (git commit -m 'Add some AmazingFeature').
+- Push to the branch (git push origin feature/AmazingFeature).
+- Open a Pull Request.
 
   ### My Networks  
    
