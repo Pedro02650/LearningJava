@@ -19,7 +19,7 @@ The project follows the standard structure of a Maven project
 
 ## How to Run
 
-- Clonar o repositório
+- Clone the repository
 
 git clone <repository URL>
 cd projeto.bora
